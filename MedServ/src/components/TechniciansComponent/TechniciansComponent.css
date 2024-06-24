@@ -1,0 +1,54 @@
+/* TechniciansComponent.css */
+.technicians-container {
+    padding: 20px;
+  }
+  
+  .technicians-list {
+    margin-bottom: 20px;
+  }
+  
+  .technician-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .technician-item button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .recent-requests {
+    margin-top: 20px;
+  }
+  
+  .request-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .request-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .status {
+    font-weight: bold;
+  }
+  
+  .status.aprobado {
+    color: green;
+  }
+  
+  .status.pendiente {
+    color: orange;
+  }

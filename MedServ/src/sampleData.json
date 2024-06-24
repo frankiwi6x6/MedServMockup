@@ -1,0 +1,45 @@
+// sampleData.json
+{
+    "requests": [
+      {
+        "id": 1,
+        "date": "15/03/2024",
+        "status": "Aprobado",
+        "message": "Hola, necesito una visita técnica de urgencia para mañana en la ciudad de San Antonio para una máquina de diálisis \"5008S Cordiax\", no funciona.",
+        "location": "San Antonio"
+      },
+      {
+        "id": 2,
+        "date": "16/06/2024",
+        "status": "Pendiente",
+        "message": "Hola, solicito una visita técnica para el próximo mes en la ciudad de San Antonio para una máquina de diálisis \"5008S CorDiax\".",
+        "location": "San Antonio"
+      }
+    ],
+    "technicians": [
+      {
+        "id": 1,
+        "name": "José Paz"
+      },
+      {
+        "id": 2,
+        "name": "Juan Pérez"
+      },
+      {
+        "id": 3,
+        "name": "Esteban Gutierrez"
+      },
+      {
+        "id": 4,
+        "name": "Gustavo López"
+      }
+    ],
+    "previousVisits": [
+      {
+        "id": 1,
+        "date": "16/03/2024",
+        "technician": "Juan Pérez",
+        "location": "San Antonio"
+      }
+    ]
+  }
